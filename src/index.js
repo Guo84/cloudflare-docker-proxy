@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  ["docker.guolijun.link" + CUSTOM_DOMAIN]: dockerHub,
-  ["quay.guolijun.link" + CUSTOM_DOMAIN]: "https://quay.io",
-  ["gcr.guolijun.link" + CUSTOM_DOMAIN]: "https://gcr.io",
-  ["k8s-gcr.guolijun.link" + CUSTOM_DOMAIN]: "https://k8s.gcr.io",
-  ["k8s.guolijun.link" + CUSTOM_DOMAIN]: "https://registry.k8s.io",
-  ["ghcr.guolijun.link" + CUSTOM_DOMAIN]: "https://ghcr.io",
-  ["cloudsmith.guolijun.link" + CUSTOM_DOMAIN]: "https://docker.cloudsmith.io",
-  ["ecr.guolijun.link" + CUSTOM_DOMAIN]: "https://public.ecr.aws",
+  ["docker.shuosandaosi.cn" + CUSTOM_DOMAIN]: dockerHub,
+  ["quay.shuosandaosi.cn" + CUSTOM_DOMAIN]: "https://quay.io",
+  ["gcr.shuosandaosi.cn" + CUSTOM_DOMAIN]: "https://gcr.io",
+  ["k8s-gcr.shuosandaosi.cn" + CUSTOM_DOMAIN]: "https://k8s.gcr.io",
+  ["k8s.shuosandaosi.cn" + CUSTOM_DOMAIN]: "https://registry.k8s.io",
+  ["ghcr.shuosandaosi.cn" + CUSTOM_DOMAIN]: "https://ghcr.io",
+  ["cloudsmith.shuosandaosi.cn" + CUSTOM_DOMAIN]: "https://docker.cloudsmith.io",
+  ["ecr.shuosandaosi.cn" + CUSTOM_DOMAIN]: "https://public.ecr.aws",
 
   // staging
-  ["docker-staging.guolijun.link" + CUSTOM_DOMAIN]: dockerHub,
+  ["docker-staging.shuosandaosi.cn" + CUSTOM_DOMAIN]: dockerHub,
 };
 
 function routeByHosts(host) {
